@@ -1,5 +1,5 @@
 module.exports = {
-    httpAdminRoot:"/red-admin",
+    httpAdminRoot:"/admin",
     httpNodeRoot: "/",
     ui: { path: "ui" },
     
@@ -48,7 +48,7 @@ module.exports = {
     // Note: once you set this property, do not change it - doing so will prevent
     // node-red from being able to decrypt your existing credentials and they will be
     // lost.
-    credentialSecret: "demoKEY123",
+    //credentialSecret: "demoKEY123",
 
     // By default, all user data is stored in the Node-RED install directory. To
     // use a different location, the following property can be used
