@@ -1,0 +1,22 @@
+{
+  "name": "node-red-webapp",
+  "version": "1.0.0",
+  "description": "A webapp wrapper for running node-red in an Azure Web App",
+  "main": "server.js",
+  "dependencies": {
+    "node-red": "*",
+    "node-red-dashboard": "*",
+    "express": "*",
+    "express-basic-auth": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+   "postinstall": "sh postinstall.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/clysss/node-red-azure-webapp.git"
+  },
+
+  "engines": {"node":">=12.15.0", "npm":">=6.13.4"}
+}
